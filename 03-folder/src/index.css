@@ -1,0 +1,39 @@
+body{
+  height:100%;
+  width:100%;
+}
+
+.card {
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.card img{
+  height:100px;
+  width:100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
